@@ -5,7 +5,7 @@ void my_print_revert(char *toRevert)
 {   
     int i = length(toRevert);
     for(i ; i >= 0; i--){
-    print_char(toRevert[i]);
+        print_char(toRevert[i]);
     }
 }
 
