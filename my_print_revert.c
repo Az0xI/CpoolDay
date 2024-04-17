@@ -1,5 +1,6 @@
 void print_char(char c);
-int length(char *chaine);
+int length(char chaine[]);
+
 
 void my_print_revert(char *toRevert)
 {   
