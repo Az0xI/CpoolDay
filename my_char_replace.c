@@ -13,3 +13,12 @@ char *my_char_replace(char *origin, char toFind, char toReplace)
    return origin;
 }
 
+
+int length(char chaine[])
+{
+    int iterateur=0;
+    while(chaine[iterateur] != '\0') { 
+    iterateur++;
+    }
+return iterateur;
+}
